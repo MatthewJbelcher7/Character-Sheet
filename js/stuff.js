@@ -15,6 +15,13 @@ let stats = {
 };
 
 let rollButton = document.getElementById('roll-button');
+let strengthValue = document.getElementById('strength-value');
+let dexterityValue = document.getElementById('dexterity-value');
+let constitutionValue = document.getElementById('constitution-value');
+let intelligenceValue = document.getElementById('intelligence-value');
+let wisdomValue = document.getElementById('wisdom-value');
+let charismaValue = document.getElementById('charisma-value');
+
 rollButton.addEventListener('click, function() {
   for (let i = 0; i < Object.keys(stats).length; i++) {
     let stat = Object.keys(stats)[i];
